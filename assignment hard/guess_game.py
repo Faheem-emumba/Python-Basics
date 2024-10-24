@@ -41,7 +41,6 @@ while i<=guessChances:
     if guessedLetter in secretWordList:
         indexOfLetter=secretWordList.index(guessedLetter)
         guessedWordList[indexOfLetter]=guessedLetter
-        print(indexOfLetter)
         secretWordList[indexOfLetter]='*'
 
         display(guessedWordList)
